@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&display=swap');
+@font-face{
+    font-family: minhaFonte;
+    src: url(font/cs_b.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #1F1F1F;
+    padding: 20px;
+    margin-bottom: 70px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+a {
+    text-decoration: none;
+    background-color: #1F1F1F;
+}
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.barlow-bold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.icon{
+    display: flex;
+    border-radius: 500px;
+    width: 100px;
+    height: auto;
+    margin-top: 1.5rem;
+    margin-left: 9.4rem;
+}
+h1{
+    margin-top: 1.9rem;
+    background-color: #1F1F1F;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+h2{
+    color: #c9e856;
+    font-family: "Barlow", sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: #1F1F1F;
+    margin-top: 0.6rem;
+}
+h3{
+    margin-top: 1.7rem;
+    color: #b6b6b6;
+    font-family: minhaFonte;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #1F1F1F;
+    margin-bottom: 2rem;
+}
+.btn{
+    background-color: #333333;
+    width: 76%;
+    height: 3.05rem;
+    margin-left: 3rem;
+    margin-top: 4%;
+    border-radius: 9px;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.texto{
+    background-color: #333333;
+    border-radius: 9px;
+    padding-top: 1rem;
+}

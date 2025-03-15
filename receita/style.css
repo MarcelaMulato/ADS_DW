@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@font-face{
+    font-family: subtit;
+    src: url(font/cs_b.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F3E5D8;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+section {
+    max-width: 600px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    box-shadow: noe;
+}
+a{
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+.capa{
+    display: flex;
+    border-radius: 10px;
+    width: 95%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 30px;
+}
+h1{
+    display: flex;
+    font-family: tit;
+    background-color: #FFFFFF;
+    font-size: 40px;
+    margin-left: 1rem;
+}
+.subtit{
+    display: flex;
+    background-color: #fff;
+    font-family: Montserrat;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+.container{
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #FFF8FC;
+    border-radius: 12px;
+    height: 150px;
+}
+h2{
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+    background-color: #FFF8FC;
+    font-size: 18px;
+    color: #903759;
+    font-family: subtit;
+    font-weight: 600;
+    height: 20px;
+}
+.tempo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #FFF8FC;
+}
+strong{
+    background-color: #FFF8FC;
+}
+ul {
+    list-style: none;
+    margin-top: 3rem;
+    margin-left: -7.9rem;
+}
+  ul .li1:before {
+    content: '\2022';
+    margin-right: 27px;
+    margin-left: 15px;
+    color: #903759;
+    background-color: #FFF8FC;
+   }
+   .li1{
+    color:#4a4848;
+    margin-left: -5%;
+    padding-bottom: 12px;
+    background-color: #FFF8FC;
+   }
+h3{
+    display: flex;
+    font-family: Radley;
+    background-color: #FFFFFF;
+    font-size: 30px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: #7d483b;
+}
+.container_i{
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    height: 150px;
+}
+.ingre {
+    list-style: none;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+.ing{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+.li2{
+    color:#4a4848;
+    padding-bottom: 12px;
+    background-color: #FFFFFF;
+}
+    .li2:before {
+        content: '\2022';
+        margin-right: 27px;
+        color: #7d483b; /* cor da bolinha */
+        background-color: #FFFFFF;
+    }
+hr{ 
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-color: #ffffff90;
+}
+.container_c{
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    height: 245px;
+}
+.inst{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #4a4848;
+    margin-left: 7%;
+    padding: 0%;
+}
+.li3{
+    margin-left: -3%;
+    padding-bottom: 12px;
+    line-height: 1.2rem;
+    list-style-position: outside;
+    background-color: #FFFFFF;
+    padding-left: 17px;
+}
+    .li3::marker{
+        color:#7d483b;
+        font-weight: 700;
+        background-color: #FFFFFF;
+    }
+.s{
+    background-color: #FFFFFF;
+}
+h4{
+    display: flex;
+    background-color: #fff;
+    font-family: Montserrat;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 12.5px;
+    font-weight: 100;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+.container_v{
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4a4848;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 0%;
+    font-size: 14px;
+}
+  td, th {
+    background-color: #FFFFFF;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+.bo{
+    font-weight: 750;
+    color: #7d483b;
+}

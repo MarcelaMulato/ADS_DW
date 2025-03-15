@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    background-color: #000000;
+    font-family: dogicaBold;
+}
+a{
+    text-decoration: none;
+}
+@font-face{
+    font-family: pixelmix;
+    src: url(font/pixelmix.ttf);
+}
+@font-face {
+    font-family: dogicaBold;
+    src: url(font/dogicabold.ttf);
+}
+.logo{
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: -10%;
+    margin-bottom: -3rem;
+}
+.btns{
+    display: inline;
+    margin-left: 31.5%;
+    width: 500px;
+}
+.btn{
+    width: 15%;
+    height: auto;
+    margin-top: -7%;
+    border: none;
+    background: none;
+}
+.btnimg{
+    width: 90%;
+    height: 70px;
+    margin-top: -40%;
+    z-index: 1;
+}
+p {
+    display: flex;
+    color: #000000;
+    margin-top: -22%;
+    margin-left: 29%;
+}
+.p1{
+    margin-left: 23%;
+}
+.btnu{
+    width: 240px;
+    height: 70px;
+    margin-left: -10px;
+}
